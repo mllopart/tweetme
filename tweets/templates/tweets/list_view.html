@@ -2,5 +2,6 @@
   {{object.content}}</br>
   {{object.user}}</br>
   {{object.timestamp | timesince}}</br></br>
-
+{% empty %}
+  There are no Tweets
 {% endfor %}
