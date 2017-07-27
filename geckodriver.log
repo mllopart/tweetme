@@ -1,0 +1,51 @@
+1501167581695	geckodriver	INFO	geckodriver 0.18.0
+1501167581765	geckodriver	INFO	Listening on 127.0.0.1:55658
+1501167583114	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1501167585720	Marionette	INFO	Listening on port 55669
+1501167585781	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501167586018	Marionette	DEBUG	loaded listener.js
+1501167586047	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1501167586090	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1501167586092	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1501167586093	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+2017-07-27 16:59:46.130 plugin-container[9476:1523599] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-27 16:59:46.131 plugin-container[9476:1523599] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9403, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1501167586187	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "about:neterror?e=connectionFailure&u=http%3A//localhost%3A8000/&c=UTF-8&f=regular&d=Firefox%20can%E2%80%99t%20establish%20a%20connection%20to%20the%20server%20at%20localhost%3A8000."
+1501167629591	geckodriver	INFO	geckodriver 0.18.0
+1501167629641	geckodriver	INFO	Listening on 127.0.0.1:55817
+1501167630660	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1501167632858	Marionette	INFO	Listening on port 55828
+1501167632969	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501167633153	Marionette	DEBUG	loaded listener.js
+1501167633185	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-27 17:00:33.264 plugin-container[9516:1525817] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9237, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-27 17:00:33.265 plugin-container[9516:1525817] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9603, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1501167633287	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1501167633288	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1501167633573	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1501167633578	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
+2017-07-27 17:01:03.373 firefox-bin[9515:1525715] IMKInputSession presentFunctionRowItemTextInputViewWithEndpoint:completionHandler: : [self textInputContext]=0x116815460 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-07-27 17:01:06.211 firefox-bin[9475:1523469] IMKInputSession presentFunctionRowItemTextInputViewWithEndpoint:completionHandler: : [self textInputContext]=0x10d4b8640 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-07-27 17:02:16.780 firefox-bin[9475:1523469] IMKInputSession presentFunctionRowItemTextInputViewWithEndpoint:completionHandler: : [self textInputContext]=0x10d4b8640 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-07-27 17:02:17.657 firefox-bin[9475:1523469] IMKInputSession presentFunctionRowItemTextInputViewWithEndpoint:completionHandler: : [self textInputContext]=0x10d4b8640 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-07-27 17:02:29.713 firefox-bin[9475:1523469] IMKInputSession presentFunctionRowItemTextInputViewWithEndpoint:completionHandler: : [self textInputContext]=0x10d4b8640 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+2017-07-27 17:02:30.321 firefox-bin[9475:1523469] IMKInputSession presentFunctionRowItemTextInputViewWithEndpoint:completionHandler: : [self textInputContext]=0x10d4b8640 *NO* NSRemoteViewController to client, NSError=Error Domain=NSCocoaErrorDomain Code=4097 "connection from pid 0" UserInfo={NSDebugDescription=connection from pid 0}, com.apple.inputmethod.EmojiFunctionRowItem
+1501167756811	geckodriver	INFO	geckodriver 0.18.0
+1501167756857	geckodriver	INFO	Listening on 127.0.0.1:56123
+1501167757893	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1501167760271	Marionette	INFO	Listening on port 56134
+1501167760330	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501167760606	Marionette	DEBUG	loaded listener.js
+1501167760650	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-27 17:02:40.712 plugin-container[9564:1535970] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x913b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-27 17:02:40.713 plugin-container[9564:1535970] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x9503, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1501167760725	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1501167760726	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1501167760992	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:8000/"
+1501167760997	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:8000/"
