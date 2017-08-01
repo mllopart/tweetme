@@ -2,13 +2,48 @@
 
 {% block title %}{{block.super}} | List{%endblock title%}
 
+{% block script %}
+<script>
+  $(document).ready(function() {
+    console.log("working")
+
+    $.ajax({
+        url: "{% url 'tweet-api:list' %}",
+        method: "GET",
+        success: function(data) {
+          // console.log(data)
+          $.each(data, function(key, value) {
+            // console.log(key)
+            // console.log(value)
+            var tweetKey = key;
+            var tweetContent = value.content;
+            var tweetUser = value.user;
+
+            $("#tweet-container").append(
+              "<div class=\"media\"><div class=\"media-body\">"+tweetContent+"</br> via "+tweetUser.username+"</div></div><hr />"
+              )
+          })
+        },
+        error: function(data) {
+          console.log("Error")
+          console.log(data)
+        },
+    });
+
+
+  });
+</script>
+{% endblock script %}
+
 {% block content %}
 
-    {% include "tweets/search_form.html" %} <br/>
-  </div>
+  {% include "tweets/search_form.html" %} <br/>
 
   <div class="row">
     <div class="col-sm-8 col-sm-offset-2">
+    <div id='tweet-container'>
+
+    </div>
       {% for object in object_list%}
         <div class="media">
           <div class="media-left">
@@ -34,3 +69,4 @@
     </div>
   </div>
 {% endblock content %}
+
